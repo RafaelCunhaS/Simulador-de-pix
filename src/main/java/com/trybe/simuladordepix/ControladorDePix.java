@@ -17,7 +17,6 @@ public class ControladorDePix {
    * @param chave Chave Pix do beneficiário da transação.
    *
    * @return Mensagem a ser exibida à pessoa usuária, informando-a sobre o resultado da operação.
-   * @throws ErroDePix
    */
   public String aoConfirmarPix(int valor, String chave) {
     try {
