@@ -7,8 +7,7 @@ public class ServidorFake implements Servidor {
     return new Conexao() {
 
       @Override
-      public void close() {
-      }
+      public void close() {}
 
       @Override
       public String enviarPix(int valor, String chave) {

@@ -11,7 +11,7 @@ public class Principal {
     Servidor servidor = new ServidorFake();
     ProcessadorDePix processadorDePix = new ProcessadorDePix(servidor);
     ControladorDePix controladorDePix = new ControladorDePix(processadorDePix);
-    String mensagem = controladorDePix.aoConfirmarPix(2000, "abc123");
+    String mensagem = controladorDePix.aoConfirmarPix(2000, " 123 ");
     System.out.println(mensagem);
   }
 }
